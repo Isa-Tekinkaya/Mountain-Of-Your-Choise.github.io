@@ -1,0 +1,380 @@
+body, html{
+  height: 100%;
+  max-width: 100%;
+  margin:auto;
+  box-sizing: border-box;
+  list-style: none;
+}
+#hero{
+  height: 100%;
+  width: 100%;
+}
+
+.nav{
+  position:absolute;
+  right:20.3%;
+  width: 60%;
+  height:5%;
+  margin: auto;
+  justify-content: end;
+  top:1%;
+  font-size: 14px;
+  font-family:  Helvetica;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.logo1{
+  background-image: url(images/Logo.png);
+  height:60px;
+  width: 50px;
+  position: relative;
+  right:77%;
+  background-repeat: no-repeat;
+}
+
+.history1{
+  position: relative;
+  top: 10px;
+  right: 80px;
+  border-bottom: 1px solid #fefeff;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  color: #fefeff;
+}
+
+.team1{
+  position: relative;
+  left: 10px;
+  top: 10px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fefeff;
+  text-decoration: none;
+  color: #fefeff;
+}
+
+.nav2{
+  position:relative;
+  display: flex;
+  max-width: 57%;
+  margin: auto;
+  top:10px;
+  height:5%;
+  font-size: 14px;
+  font-family:  Helvetica;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 800;
+  list-style-type: none;
+}
+.logo2{
+  background-image: url(images/VectorSmartObject1.png);
+  height:60px;
+  width: 50px;
+  position: relative;
+  margin-right: 3px;
+  top:9px;
+  background-repeat: no-repeat;
+}
+.losAngeles{
+  background-image: url("images/Losangeles_2.png");
+  height:80px;
+  width: 130px;
+  background-repeat: no-repeat;
+  list-style-type: none;
+  position: relative;
+  top:10px;
+}
+.history2{
+  position: relative;
+  top: 18px;
+  left: 675px;
+  border-bottom: 1px solid #4d5c69;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  color: #4d5c69;
+}
+.team2{
+  position: relative;
+  left: 764px;
+  top: 18px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #4d5c69;
+  text-decoration: none;
+  color: #4d5c69;
+}
+
+.greenMountain{
+  width: 100%;
+  max-height:1100px;
+  object-fit:cover;
+}
+
+.historySection{
+  position: relative;
+}
+.historyList{
+  max-width: 800px;
+  position: absolute;
+  padding-left: 5px;
+  top: 12.5rem;
+  right: 33%;
+  display: flex;
+  text-align: start;
+}
+.history01{
+  background-image: url("images/History01.png");
+  width: 15rem;
+  height: 10rem;
+  display: inline-block;
+  position: absolute;
+  left:26rem;
+  top: 4.5rem;;
+  background-repeat: no-repeat;
+
+}
+.historyText01{
+  color:rgb(59, 59, 59);
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+  bottom:555px; 
+}
+
+#carousel{
+  background-color: rgba(64,79,108, .8);
+  width: 100%;
+  height: 21%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#carousel div div{
+  padding: 1.2rem;
+}
+
+#carousel div div img{
+ padding-top: 0.6rem;
+ padding-right: 0.4rem;
+ margin-bottom: 0.4rem;
+ width: 14%;
+}
+#carousel [data-bs-target]{
+  border-radius: 100%;
+  width: 6px;
+  height: 6px;
+  position: relative;
+  top: 8px;
+}
+
+.climbDiv{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  right: 0.5em;
+}
+.climb{
+  width:100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.climbImg{
+  max-height: 40rem;
+}
+.climbImgText{
+  position: relative;
+  right:1%;
+  top: 1.1rem; 
+}
+.climbText{
+  max-width: 47rem;
+  padding-left: 1rem;
+  
+}
+.switchMountain{
+  width:100%;
+  background-color: #404f6c;
+  
+}
+.mountainSwitchList{
+  position: relative;
+  max-width: 30rem ;
+  left: 23rem;
+  line-height:normal;
+  padding: 0.5rem;
+  font-family: 'Fjalla One';
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+}
+.mountain1{
+  text-transform: uppercase;
+  
+  padding: 0.5rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  text-decoration: underline;
+  text-underline-position: under;
+  background-color: #b0b4be;
+  color: #404f6c;
+}
+.mountain2{
+  cursor:pointer;
+  padding: 0.5rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  color:#b0b4be;
+}
+.scheduleMountain1{
+  background-image: url("images/bottomMountain_.jpg");
+  height: 68%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.scheduleMountain2{
+  background-image: url("images/bottomMountain2--.png");
+  height: 68%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer{
+  background-color:#404f6c ;
+}
+footer ul{
+  list-style-type: none;
+  display: flex;
+  position: relative;
+  right: 5rem;
+  width: 50%;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.footerLogo{
+  background-image: url(images/footerLogo.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-top: 0.5rem;
+}
+.footerLogoText{
+  background-image: url(images/LosAngeles3.png);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+  margin-top: 0.5rem;
+}
+.copyRight{
+  background-image: url(images/Copyright.png);
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 40px;
+  position: relative;
+  top:1.4rem;
+  left: 38rem;
+}
+.accordion {
+  display:none;
+  
+}
+.accordion button{
+  font-size: 14px;
+  font-family:  Helvetica;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #4d5c69;
+}
+@media screen and (max-width: 1455px){
+  #nav{
+    display: none;
+  }
+  .accordion{
+    display:inline;
+    
+  }
+  .nav2{
+    display: none;
+  }
+  .historyList{
+    display: none;
+  }
+  .history01{
+    display:none;
+  }
+  .climbDiv{
+    display: none;
+  }
+  .mountainSwitchList{
+    left: 0;
+    padding-left:0;
+  }
+  .copyRight{
+    top:1.4rem;
+    left:18rem
+  }
+}
+
+@media screen and (max-width: 1000px) { 
+  #carousel [data-bs-target]{
+    top: 18px;
+  }
+  .carousel-inner{
+    display: absolute;
+    bottom:21px;  
+  }
+
+  footer{
+    margin: 0;
+    padding: 0;
+  }
+  footer ul{
+    flex-wrap: wrap;
+    right:0;
+    left:0;
+    top:0;
+    justify-content: start;
+  }
+  .copyRight{
+    margin-right: 0;
+    padding-right: 0;
+    left:0;
+    top:0;
+    background-size: 100%;
+  }
+   .scheduleMountain1{
+    background-position: 28%;
+  }
+  .scheduleMountain2{
+    background-position: 28%;
+  }
+}
+
+@media screen and (max-width: 280px) {        /* resolution for galaxy fold */
+  .mountain1{
+    padding: 2.5%;
+  }
+  .mountain2{
+    padding: 2.5%;
+  }
+  .mountainSwitchList{
+    text-align: center;
+    padding: 2.42%;
+  }
+  #carousel [data-bs-target]{
+    top: 22px;
+  }
+}
