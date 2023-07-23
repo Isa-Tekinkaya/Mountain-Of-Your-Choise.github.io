@@ -13,7 +13,6 @@ Elements:
 
 - Accordion
 - Carousel
-- 
 ![Screenshot (113)](https://github.com/Isa-Tekinkaya/Mountain-of-your-Choise/assets/42121090/c549d6e0-e559-40e3-856f-9c47d24e8137)
 
 
